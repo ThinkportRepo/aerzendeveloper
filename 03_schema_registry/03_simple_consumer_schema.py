@@ -6,6 +6,7 @@ def setup_schema_registry_client():
     return SchemaRegistryClient(
         {
             "url": "",
+            "basic.auth.user.info": ""
         }
     )
 
